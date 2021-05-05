@@ -1,0 +1,347 @@
+/*-----HTML elements section----*/
+
+body {
+    font-family: 'Josefin Sans';
+    background: linear-gradient(to right, #effad3, #a8dda8);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 4.5rem;
+    margin-top: 20px;
+    line-height: 1.8;
+    color: #4c6179;
+    font-weight: 500;
+}
+
+h3 {
+    color: #4c6179;
+    font-size: 2.1rem;
+    font-weight: 400;
+}
+
+p {
+    font-size: 1.1rem;
+    color: #f0749e;
+}
+
+span {
+    font-size: 1.2rem;
+    color: #4C6179;
+    font-weight: 600;
+}
+
+
+/*------Navigation/Menu/Header------*/
+
+.menu {
+    margin-left: auto;
+}
+
+#navbar ul li a {
+    color: #4C6179;
+    margin: 0 10px;
+    font-size: 1.1rem;
+}
+
+#navbar ul li a:hover {
+    color: #F3A3BE;
+}
+
+.header {
+    margin-bottom: 15px;
+    padding: 2% 10%;
+}
+
+
+/*-----About Section Photo----*/
+
+.containe {
+    position: relative;
+    margin: auto;
+    text-align: center;
+}
+
+.kajal-logo {
+    width: 40%;
+    border-radius: 100%;
+}
+
+.m {
+    width: 20%;
+}
+
+.image-kajal {
+    border-radius: 100%;
+    margin-top: 60px;
+    margin-left: 150px;
+}
+
+.cloud-1 {
+    position: absolute;
+    top: 100px;
+    left: 210px;
+    opacity: 0.8;
+}
+
+.cloud-2 {
+    position: absolute;
+    top: 50px;
+    right: 200px;
+    opacity: 0.8;
+}
+
+.cat-logo {
+    width: 20%;
+}
+
+
+/*-----Skills Section----*/
+
+#skills {
+    margin: 60px 0 50px;
+    padding: 7% 15%;
+}
+
+.h3-heading {
+    font-size: 2.1rem;
+    font-weight: 400;
+    color: #f0749e;
+}
+
+.about-text {
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.card-item {
+    background-color: #D9F1C6;
+    width: 30rem;
+}
+
+.card-a {
+    color: #4C6179;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.card-a:hover {
+    color: white;
+    background-color: #f0749e;
+    border-color: #f0749e;
+}
+
+
+/*-----Footer Section--------*/
+
+#footer {
+    padding: 5% 8% 0;
+}
+
+.footer-logo {
+    width: 30px;
+    border-radius: 100%;
+}
+
+#footer ul li {
+    display: inline-block;
+}
+
+#footer ul li a {
+    margin: auto 20px;
+    font-size: 1.1rem;
+    color: #8cd38b;
+    padding-top: 5px;
+}
+
+#footer ul li a:hover {
+    color: #f0749e;
+}
+
+.copyright {
+    font-size: 13px;
+    color: #f0749e;
+    font-weight: 400;
+    text-align: right;
+}
+
+
+/*-------Responsive Media Query------*/
+
+
+/*-----Large Laptop Screen----*/
+
+@media (max-width:1024px) {
+    .kajal-logo {
+        width: 30%;
+        border-radius: 100%;
+    }
+    .image-kajal {
+        border-radius: 100%;
+        margin-left: 0px;
+    }
+    .h3-p-text {
+        margin-left: -80px;
+    }
+    #skills {
+        padding: 5% 10%;
+    }
+    .cloud-1 {
+        width: 15%;
+        top: 100px;
+        left: 170px;
+        opacity: 0.8;
+    }
+    .cloud-2 {
+        width: 15%;
+        top: 50px;
+        right: 180px;
+        opacity: 0.8;
+    }
+    .cat-logo {
+        width: 25%;
+    }
+    .header {
+        margin-bottom: 40px;
+    }
+    #skills {
+        margin-bottom: 40px;
+    }
+}
+
+
+/*-----Tablet  Screen----*/
+
+@media (max-width:768px) {
+    .image-kajal {
+        border-radius: 100%;
+        margin-bottom: 30px;
+    }
+    .row {
+        text-align: center;
+    }
+    .card-item {
+        width: auto;
+    }
+    .col-md-12 {
+        text-align: center;
+        margin: 0 auto;
+    }
+    .cloud-1 {
+        width: 18%;
+        top: 100px;
+        left: 70px;
+        opacity: 0.8;
+    }
+    .cloud-2 {
+        width: 18%;
+        top: 50px;
+        right: 80px;
+        opacity: 0.8;
+    }
+    .cat-logo {
+        width: 30%;
+    }
+    .header {
+        margin-bottom: 40px;
+    }
+    #footer ul li a {
+        margin: auto 10px;
+        font-size: 1.4rem;
+        color: #8cd38b;
+        padding-top: 5px;
+    }
+    .copyright {
+        font-size: 13px;
+        color: #f0749e;
+        font-weight: 400;
+        text-align: center;
+    }
+    #footer {
+        padding: 0;
+        text-align: center;
+    }
+}
+
+
+/*-----Large Mobile Screen----*/
+
+@media(max-width:425px) {
+    body {
+        padding: 0%;
+        margin: 0%;
+    }
+    .image-kajal {
+        margin-top: 20px;
+    }
+    h3 {
+        font-size: 1.4rem;
+    }
+    .cat-logo {
+        width: 50%;
+    }
+    .cloud-1 {
+        width: 18%;
+        top: 90px;
+        left: 30px;
+        opacity: 0.8;
+    }
+    .cloud-2 {
+        width: 18%;
+        top: 40px;
+        right: 50px;
+        opacity: 0.8;
+    }
+    .card-item {
+        width: auto;
+        padding: 15px;
+    }
+    .copyright {
+        font-size: 13px;
+        color: #f0749e;
+        font-weight: 400;
+        text-align: center;
+    }
+}
+
+
+/*-----Small Mobile Screen----*/
+
+@media (max-width:320px) {
+    h1 {
+        font-size: 3.5rem;
+    }
+    p,
+    span {
+        font-size: 1rem;
+    }
+    .navbar-brand {
+        width: 35%;
+    }
+    h3 {
+        font-size: 1.3rem;
+    }
+    .container {
+        margin: 0%;
+    }
+    .card-item {
+        width: 100%;
+        padding: 10px;
+    }
+    #footer ul li a {
+        margin: auto 10px;
+        font-size: 1rem;
+        color: #8cd38b;
+        padding-top: 5px;
+        text-align: center;
+    }
+    .copyright {
+        font-size: 13px;
+        color: #f0749e;
+        font-weight: 400;
+        text-align: center;
+    }
+}
